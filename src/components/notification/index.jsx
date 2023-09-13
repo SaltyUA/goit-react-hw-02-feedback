@@ -1,7 +1,9 @@
+import { StatisticText } from '../statistics/Statistic.styled';
+
 const Notification = ({ message }) => {
   return (
     <div>
-      <p>{message}</p>
+      <StatisticText>{message}</StatisticText>
     </div>
   );
 };

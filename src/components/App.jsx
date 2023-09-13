@@ -57,7 +57,7 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <Section title="Feedback Options">
+        <Section title="Leave your feedback">
           <FeedbackOptions
             onLeaveFeedback={this.onLeaveFeedback}
             options={['good', 'neutral', 'bad']}

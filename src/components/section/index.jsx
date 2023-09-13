@@ -1,9 +1,11 @@
+import { SectionContainer, SectionText } from './Section.styled';
+
 const Section = ({ children, title }) => {
   return (
-    <section>
-      <h2>{title}</h2>
+    <SectionContainer>
+      <SectionText>{title}</SectionText>
       {children}
-    </section>
+    </SectionContainer>
   );
 };
 

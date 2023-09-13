@@ -1,12 +1,20 @@
+import FeedbackButton from './Button.styled';
+import FeedbackContainer from './FeedbackContainer.styled';
+
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <div onClick={onLeaveFeedback}>
+    <FeedbackContainer onClick={onLeaveFeedback}>
       {options.map(option => (
-        <button type="button" data-rate={option} key={option}>
+        <FeedbackButton
+          option={option}
+          type="button"
+          data-rate={option}
+          key={option}
+        >
           {option.charAt(0).toUpperCase() + option.slice(1)}
-        </button>
+        </FeedbackButton>
       ))}
-    </div>
+    </FeedbackContainer>
   );
 };
 
