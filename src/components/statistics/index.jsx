@@ -1,4 +1,5 @@
-import { StatisticsList, StatisticText } from './Statistic.styled';
+import StatisticsList from './Statistic.styled';
+import StatisticText from './StatisticText.styled';
 
 const Statistics = ({ good, neutral, bad, total, positivePercetage }) => {
   return (

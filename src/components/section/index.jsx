@@ -1,4 +1,5 @@
-import { SectionContainer, SectionText } from './Section.styled';
+import SectionContainer from './SectionContainer.styled';
+import SectionText from './SectionText.styled';
 
 const Section = ({ children, title }) => {
   return (
