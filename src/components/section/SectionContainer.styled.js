@@ -11,7 +11,6 @@ const SectionContainer = styled('section')(() => {
     alignItems: 'center',
     background: `linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(139,94,86,0.5) 48%, rgba(0,0,0,0.8) 100%)`,
     backgroundSize: 'cover',
-    marginBottom: `1rem`,
     padding: 20,
   };
 });
