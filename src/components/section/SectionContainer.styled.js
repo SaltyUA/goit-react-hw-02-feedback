@@ -1,6 +1,6 @@
 const { default: styled } = require('styled-components');
 
-const SectionContainer = styled('section')(() => {
+export const SectionContainer = styled('section')(() => {
   return {
     margin: `0 auto`,
     maxWidth: `50vw`,
@@ -15,4 +15,9 @@ const SectionContainer = styled('section')(() => {
   };
 });
 
-export default SectionContainer;
+export const SectionText = styled('h2')(() => {
+  return {
+    color: `#fff`,
+    marginBottom: `1rem`,
+  };
+});

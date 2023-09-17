@@ -1,4 +1,4 @@
-import StatisticText from 'components/statistics/StatisticText.styled';
+import { StatisticText } from 'components/statistics/Statistics.styled';
 
 const Notification = ({ message }) => {
   return (

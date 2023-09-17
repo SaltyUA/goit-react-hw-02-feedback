@@ -1,6 +1,6 @@
 const { default: styled } = require('styled-components');
 
-const StatisticsList = styled('ul')(() => {
+export const StatisticsList = styled('ul')(() => {
   return {
     listStyle: `none`,
     display: 'flex',
@@ -12,4 +12,9 @@ const StatisticsList = styled('ul')(() => {
   };
 });
 
-export default StatisticsList;
+export const StatisticText = styled('p')(() => {
+  return {
+    color: `#fff`,
+    textAlign: 'center',
+  };
+});

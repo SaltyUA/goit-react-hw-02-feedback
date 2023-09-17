@@ -1,7 +1,6 @@
-import StatisticsList from './Statistic.styled';
-import StatisticText from './StatisticText.styled';
+import { StatisticText, StatisticsList } from './Statistics.styled';
 
-const Statistics = ({ good, neutral, bad, total, positivePercetage }) => {
+const Statistics = ({ good, neutral, bad, total, positive }) => {
   return (
     <div>
       <StatisticsList>
@@ -18,7 +17,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercetage }) => {
           <StatisticText>Total: {total}</StatisticText>
         </li>
         <li>
-          <StatisticText>Positive feedback: {positivePercetage}%</StatisticText>
+          <StatisticText>Positive feedback: {positive}%</StatisticText>
         </li>
       </StatisticsList>
     </div>
